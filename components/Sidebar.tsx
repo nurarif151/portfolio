@@ -11,8 +11,8 @@ const Sidebar = () => {
                 className='mx-auto w-32 h-32 rounded-full'
 
             />
-            <h3 className='my-4 text-3xl font-medium tracking-wider'>
-                <span>NUR</span>
+            <h3 className='my-4 text-3xl font-medium tracking-wider font-kaushan'>
+                <span>NUR </span>
                 ARIF</h3>
             <p className='px-2 py-1 my-3 bg-gray-200 rounded-full'>Web Developer</p>
             <a className='flex justify-center px-2 py-1 my-3 bg-gray-200 rounded-full item-center'
@@ -38,8 +38,11 @@ const Sidebar = () => {
 
             </div>
             {/* Email Button */}
-            <button className='py-2 my-2 w-8/12 text-white bg-gradient-to-r from-blue-900 to-blue-400 rounded-full'>Email Me</button>
-            <button className='py-2 my-2 w-8/12 text-white bg-gradient-to-r from-blue-900 to-blue-400 rounded-full'>Toggle  Theme</button>
+            <button
+                className='py-2 my-2 w-8/12 text-white bg-gradient-to-r to-blue-400 rounded-full from-blue'
+                onClick={() => window.open('mailto:nurarif0151@gmail.com')}
+            >Email Me</button>
+            <button className='py-2 my-2 w-8/12 text-white bg-gradient-to-r to-blue-400 rounded-full from-blue'>Toggle  Theme</button>
 
         </div>
     )
